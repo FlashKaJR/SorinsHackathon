@@ -1,0 +1,521 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 32438 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Work/GitHub/SorinsHackathon/SorinsHackathon
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+1066
+Successfully changed project path to: D:/Work/GitHub/SorinsHackathon/SorinsHackathon
+D:/Work/GitHub/SorinsHackathon/SorinsHackathon
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10600] Host "[IP] 192.168.1.254 [Port] 0 [Flags] 2 [Guid] 3497930087 [EditorId] 3497930087 [Version] 1048832 [Id] WindowsEditor(7,FlashKaPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10600] Host "[IP] 192.168.1.254 [Port] 0 [Flags] 2 [Guid] 3497930087 [EditorId] 3497930087 [Version] 1048832 [Id] WindowsEditor(7,FlashKaPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 106.98 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.72 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Work/GitHub/SorinsHackathon/SorinsHackathon/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8038 MB
+    Driver:   31.0.15.3742
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.031579 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 100.58 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.838 seconds
+Domain Reload Profiling:
+	ReloadAssembly (838ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (520ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (117ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010208 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Work\GitHub\SorinsHackathon\SorinsHackathon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Work\GitHub\SorinsHackathon\SorinsHackathon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 90.38 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in D:\Work\GitHub\SorinsHackathon\SorinsHackathon\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in D:\Work\GitHub\SorinsHackathon\SorinsHackathon\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <1f66344f2f89470293d8b67d71308c07>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <1f66344f2f89470293d8b67d71308c07>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <42a64fd733d9417da1ea3a757ad9a96d>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.541 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1542ms)
+		BeginReloadAssembly (198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1190ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (611ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (331ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (30ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3975 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (185.5 KB). Loaded Objects now: 4414.
+Memory consumption went from 143.9 MB to 143.7 MB.
+Total: 3.339700 ms (FindLiveObjects: 0.262600 ms CreateObjectMapping: 0.214600 ms MarkObjects: 2.740600 ms  DeleteObjects: 0.121100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 421491.451058 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6317979e6faa64db229391f46b562a') in 0.174599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.491849 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151bf2217b6ea18eb000a294e8108551') in 0.028705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.933432 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409f08d69f049b5add687ca581dc3412') in 0.017630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.219309 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c855eb1a9e4e09d24adae5974b421ab') in 0.018070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.819703 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a30fa67cddb6ab767555ba7a4fce743') in 0.016374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.012627 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c55aa38c4d8bced248134c94b48ac0') in 0.015657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.030023 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbca7f95fa4570ef392afe4c9ad14b1') in 0.016568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.673002 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec0c98fd9d13df1c5ad7388786a6c28') in 0.016198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.802349 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918d177cb26b5f40e48e0736fc3a7bfb') in 0.016021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.235868 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e8a6983af763817dd63a6069976d59') in 0.016154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.370086 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83910a3f9821a202ad62a3149680922') in 0.016228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.928013 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd423f3f980eb9790948a78a2d7a2c43') in 0.016646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.038780 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3435c90a298e270f776033747078dae') in 0.016132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.723439 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8747aa794b33848eed1865380804d18b') in 0.016384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.592234 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342ff6f18e0f3ac8345745b5b4651053') in 0.017484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.917444 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add4653e0551f7dc1a4ae3bcb28250d2') in 0.015985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.677937 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3c1f82f9709fa9128060f044715b23') in 0.016828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.382978 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9129128b54baf03862772c539040384') in 0.017229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.903287 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98dce287a9f07dea49ca7a858ab0aeb') in 0.016004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.983271 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3f82a5c61069f65a466bb8954f21d9') in 0.015562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.843236 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d0758a6c9b2b75cab0a936bce2664f') in 0.016911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.109752 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36d83dc8908aa88e0c2db6b712ed0ec') in 0.016149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.253823 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b4e7e1537ec833081192c6eeffc8e8') in 0.015868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.723620 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c9726796d85ce609f5ba093a38190f') in 0.015674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.797421 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de65750486e96e76031caf5b3576103f') in 0.017245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.489194 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48d6dcc10e652db0277785bf9a6e6f5') in 0.016563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.627727 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13178677fa79912ed2f8a3d879c0102') in 0.015829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.966474 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648da1a480faf87584e326a963a0d7bc') in 0.016282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.626847 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd538efb844a2a0f5e156e7380b263720') in 0.016202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.153839 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71d3aa5b57186138b9afc851b45ea04') in 0.015712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.997171 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52621af67acac6180b9f9754fe94431') in 0.015893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.391978 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d4bd52f874b93b8546b0dd7849bd23') in 0.018332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.525281 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b27e20bc091b0394de723f6803253d') in 0.018908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.055459 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4840fbb1e09de4e16b13b4c2c00dcdec') in 0.017647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.101061 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4fcc581b078b418dd209bba5ab3c1e') in 0.016028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.938757 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aff53ea9dc32d0fe93117b39993f512') in 0.016334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.772110 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc9f9744b95e7fb48c709a53a8b20a5') in 0.015889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.239665 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b064506e14b58cabafbc667f9d48332') in 0.016153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.157797 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00fe963130cc74b2b0ecd6c2bb4b286c') in 0.016560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.072120 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99ed701d3b1cc0e5fc6b09b67cc6288') in 0.018667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.459667 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbc515031241c287fad7271ec4603bd') in 0.016094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.596159 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dca4616165762ee62f3d651ea2bd0ae') in 0.016686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.865503 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7909083d3817d297240094b40ed12308') in 0.016607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.305230 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6377410479f4df66cc0af7f36b3cd7') in 0.016394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.889349 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7d4f34259df20441d942e6c991439e') in 0.017322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.360837 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1244e49047cc6f379a9f7d1f5ca0e914') in 0.017164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.302443 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638854f4023281cee4d22e2a84a3ca7a') in 0.018482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.717283 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928d8747d935d95201ad6e0f38cb2bc8') in 0.017954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.838355 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b7c7902c56c596c0b9026a52c1282c') in 0.016713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.487852 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac59b37318eb7f7a18ea36cfe976c8c') in 0.016237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.396766 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702e8956f2d69fbe73879ee296a3f286') in 0.016665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.423118 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce5cbf468b1167e1f9a2daa2222b54b') in 0.016695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.815070 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c49940a983935e8247012658b7adf39') in 0.017255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.243372 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa79d9ef2ad06e95b3f3880a9fb1b59c') in 0.019504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.017081 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854df21a10b1cc1aab42903195a9b43b') in 0.016380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.671473 seconds.
+  path: Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab
+  artifactKey: Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Eclipse Prefabs/7 Stages of Lunar Eclipse/S1 Lunar Eclipse.prefab using Guid(f849bbaa148bfb142a2672db24090b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93af9da7c1bc1108c129a74e52061ccb') in 0.016440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.814864 seconds.
+  path: Assets/Sorin Models/TV/CamToTV.renderTexture
+  artifactKey: Guid(d68ecbe859c31e341a66f740c2ba399d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/TV/CamToTV.renderTexture using Guid(d68ecbe859c31e341a66f740c2ba399d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27cbf2190f246d3f3baa5d1fdca66b2c') in 0.016018 seconds 
